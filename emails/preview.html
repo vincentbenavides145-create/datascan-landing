@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vista previa del correo DataScan</title>
+    <style>
+      body {
+        margin: 0;
+        background: #eaf0f8;
+        color: #06184a;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(160px, 1fr)) auto;
+        gap: 10px;
+        align-items: end;
+        padding: 14px;
+        background: rgba(255, 255, 255, .94);
+        border-bottom: 1px solid #d9e3f1;
+        backdrop-filter: blur(10px);
+      }
+
+      label {
+        display: grid;
+        gap: 5px;
+        color: #46556f;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      input {
+        min-width: 0;
+        border: 1px solid #cfd9ea;
+        border-radius: 8px;
+        padding: 10px 11px;
+        color: #06184a;
+        font: inherit;
+      }
+
+      button {
+        border: 0;
+        border-radius: 8px;
+        background: #1769ff;
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 800;
+        padding: 11px 18px;
+      }
+
+      .stage {
+        width: min(780px, calc(100% - 24px));
+        margin: 24px auto 44px;
+      }
+
+      .title {
+        margin: 0 0 12px;
+        font-size: 20px;
+      }
+
+      iframe {
+        display: block;
+        width: 100%;
+        height: 1580px;
+        border: 1px solid #d9e3f1;
+        border-radius: 18px;
+        background: #fff;
+      }
+
+      @media (max-width: 820px) {
+        .toolbar {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form class="toolbar" id="previewForm">
+      <label>
+        Nombre
+        <input id="name" value="Vince">
+      </label>
+      <label>
+        Logo URL
+        <input id="logo" value="http://127.0.0.1:5500/assets/logo-horizontal.png">
+      </label>
+      <label>
+        Link del bot
+        <input id="bot" value="https://t.me/Factura_pe_bot">
+      </label>
+      <button type="submit">Actualizar vista</button>
+    </form>
+
+    <main class="stage">
+      <h1 class="title">Correo que se enviará</h1>
+      <iframe id="emailFrame" title="Vista previa del correo"></iframe>
+    </main>
+
+    <script>
+      const form = document.querySelector('#previewForm');
+      const frame = document.querySelector('#emailFrame');
+
+      async function renderPreview() {
+        const template = await fetch('access-beta.html').then((response) => response.text());
+        const values = {
+          name: document.querySelector('#name').value || 'Usuario beta',
+          logo_url: document.querySelector('#logo').value || 'http://127.0.0.1:5500/assets/logo-horizontal.png',
+          bot_link: document.querySelector('#bot').value || 'https://t.me/Factura_pe_bot'
+        };
+
+        const html = template
+          .replaceAll('{{name}}', values.name)
+          .replaceAll('{{logo_url}}', values.logo_url)
+          .replaceAll('{{bot_link}}', values.bot_link);
+
+        frame.srcdoc = html;
+      }
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        renderPreview();
+      });
+
+      renderPreview();
+    </script>
+  </body>
+</html>

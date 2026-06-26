@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Plan empresas">
+  <rect width="512" height="512" fill="none"/>
+  <rect x="86" y="134" width="146" height="238" rx="24" fill="#2563EB"/>
+  <rect x="280" y="90" width="146" height="282" rx="24" fill="#0F5D7F"/>
+  <rect x="116" y="174" width="34" height="34" rx="8" fill="#fff"/>
+  <rect x="168" y="174" width="34" height="34" rx="8" fill="#12D6C7"/>
+  <rect x="116" y="234" width="34" height="34" rx="8" fill="#12D6C7"/>
+  <rect x="168" y="234" width="34" height="34" rx="8" fill="#fff"/>
+  <rect x="320" y="132" width="34" height="34" rx="8" fill="#FFB703"/>
+  <rect x="372" y="132" width="34" height="34" rx="8" fill="#fff"/>
+  <rect x="320" y="192" width="34" height="34" rx="8" fill="#fff"/>
+  <rect x="372" y="192" width="34" height="34" rx="8" fill="#12D6C7"/>
+  <rect x="320" y="252" width="34" height="34" rx="8" fill="#12D6C7"/>
+  <rect x="372" y="252" width="34" height="34" rx="8" fill="#FFB703"/>
+  <rect x="58" y="368" width="396" height="42" rx="18" fill="#0F5D7F"/>
+  <path d="M232 258h48M256 234v48" stroke="#FFB703" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="258" r="34" fill="none" stroke="#FFB703" stroke-width="14"/>
+</svg>

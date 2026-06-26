@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Subida de documentos a DataScan">
+  <defs>
+    <linearGradient id="bgUpload" x1="30" y1="22" x2="154" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#DFFAFE"/>
+    </linearGradient>
+    <linearGradient id="blueUpload" x1="50" y1="44" x2="132" y2="139" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="tealUpload" x1="54" y1="112" x2="136" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12D6C7"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" rx="32" fill="url(#bgUpload)"/>
+  <rect x="36" y="109" width="108" height="30" rx="12" fill="#0E7490"/>
+  <rect x="48" y="121" width="84" height="18" rx="8" fill="url(#tealUpload)"/>
+  <path d="M44 108h92l-13 21H57l-13-21Z" fill="#F8FAFC" stroke="#0E7490" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M89 102V54" stroke="url(#blueUpload)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M68 76 89 53l21 23" fill="none" stroke="url(#blueUpload)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="rotate(-10 50 70)">
+    <rect x="31" y="42" width="36" height="53" rx="7" fill="#FFFFFF" stroke="#0E7490" stroke-width="4"/>
+    <path d="M40 56h18M40 67h16M40 78h12" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="58" cy="88" r="4" fill="#F59E0B"/>
+  </g>
+  <g transform="rotate(9 131 72)">
+    <rect x="113" y="42" width="36" height="53" rx="7" fill="#FFFFFF" stroke="#F59E0B" stroke-width="4"/>
+    <path d="M122 56h18M122 67h16M122 78h12" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="122" cy="88" r="4" fill="#12D6C7"/>
+  </g>
+  <circle cx="44" cy="116" r="5" fill="#2563EB"/>
+  <circle cx="137" cy="116" r="5" fill="#12D6C7"/>
+</svg>

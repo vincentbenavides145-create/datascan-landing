@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Automatización DataScan">
+  <rect width="160" height="160" rx="32" fill="#ECFEFF"/>
+  <rect x="28" y="34" width="58" height="76" rx="14" fill="#FFFFFF" stroke="#2563EB" stroke-width="8"/>
+  <path d="M52 58h22M52 78h22M52 98h14" stroke="#94A3B8" stroke-width="7" stroke-linecap="round"/>
+  <rect x="76" y="58" width="58" height="58" rx="16" fill="#0F5D7F"/>
+  <path d="M96 85h18M105 76v18" stroke="#12D6C7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M44 126h76" stroke="#0F5D7F" stroke-width="10" stroke-linecap="round"/>
+  <path d="M117 38c14 5 24 18 24 34" stroke="#D81159" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M136 67l6 11 7-10" fill="none" stroke="#D81159" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

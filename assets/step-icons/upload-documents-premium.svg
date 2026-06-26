@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Documentos subidos a DataScan">
+  <defs>
+    <linearGradient id="uBg" x1="22" y1="15" x2="197" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFF6FF"/>
+      <stop offset=".55" stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#CCFBF1"/>
+    </linearGradient>
+    <linearGradient id="uBlue" x1="60" y1="58" x2="161" y2="163" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="uShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="9" flood-color="#0D1B2A" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="220" height="220" rx="38" fill="url(#uBg)"/>
+  <circle cx="174" cy="48" r="10" fill="#12D6C7" opacity=".75"/>
+  <circle cx="43" cy="159" r="8" fill="#F59E0B" opacity=".8"/>
+  <path d="M42 155h136" stroke="#BFD7FF" stroke-width="8" stroke-linecap="round" opacity=".7"/>
+  <g filter="url(#uShadow)">
+    <path d="M52 126h116l-16 42H68l-16-42Z" fill="#FFFFFF" stroke="#0E7490" stroke-width="7" stroke-linejoin="round"/>
+    <rect x="64" y="154" width="92" height="22" rx="10" fill="#0E7490"/>
+    <rect x="79" y="143" width="62" height="20" rx="8" fill="#12D6C7"/>
+  </g>
+  <path d="M110 128V62" stroke="url(#uBlue)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M80 91 110 59l30 32" fill="none" stroke="url(#uBlue)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#uShadow)" transform="rotate(-11 62 78)">
+    <rect x="38" y="45" width="50" height="70" rx="9" fill="#FFFFFF" stroke="#2563EB" stroke-width="5"/>
+    <rect x="48" y="58" width="20" height="8" rx="3" fill="#12D6C7"/>
+    <path d="M48 76h28M48 90h24M48 104h15" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#uShadow)" transform="rotate(11 157 76)">
+    <rect x="132" y="42" width="50" height="70" rx="9" fill="#FFFFFF" stroke="#F59E0B" stroke-width="5"/>
+    <rect x="142" y="55" width="22" height="8" rx="3" fill="#2563EB"/>
+    <path d="M142 74h28M142 88h23M142 102h18" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#uShadow)">
+    <rect x="84" y="83" width="52" height="44" rx="12" fill="#FFFFFF"/>
+    <path d="M103 99h14M103 111h14" stroke="#0E7490" stroke-width="5" stroke-linecap="round"/>
+    <path d="M91 107 103 119l27-29" fill="none" stroke="#12D6C7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

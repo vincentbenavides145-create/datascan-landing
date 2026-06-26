@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Mistral OCR">
+  <rect width="160" height="160" rx="32" fill="#FFF7ED"/>
+  <rect x="28" y="34" width="26" height="26" rx="6" fill="#FFB703"/>
+  <rect x="54" y="34" width="26" height="26" rx="6" fill="#FB8500"/>
+  <rect x="80" y="34" width="26" height="26" rx="6" fill="#D81159"/>
+  <rect x="28" y="60" width="26" height="26" rx="6" fill="#FB8500"/>
+  <rect x="54" y="60" width="26" height="26" rx="6" fill="#0F5D7F"/>
+  <rect x="106" y="60" width="26" height="26" rx="6" fill="#D81159"/>
+  <rect x="28" y="86" width="26" height="26" rx="6" fill="#FFB703"/>
+  <rect x="80" y="86" width="26" height="26" rx="6" fill="#0F5D7F"/>
+  <rect x="106" y="86" width="26" height="26" rx="6" fill="#FB8500"/>
+  <path d="M35 126h90" stroke="#0F172A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M44 132h72" stroke="#D81159" stroke-width="6" stroke-linecap="round"/>
+</svg>
