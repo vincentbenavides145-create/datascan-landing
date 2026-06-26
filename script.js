@@ -51,8 +51,8 @@ function initDataScanLanding() {
     const successMessage = document.querySelector('#formSuccess');
 
     betaForm.addEventListener('input', () => {
-      if (button && button.textContent !== 'Recibir acceso beta') {
-        button.textContent = 'Recibir acceso beta';
+      if (button && button.textContent !== 'Registrarme a la beta') {
+        button.textContent = 'Registrarme a la beta';
       }
       if (successMessage) {
         successMessage.hidden = true;
@@ -101,11 +101,11 @@ function initDataScanLanding() {
           const message = successMessage.querySelector('p');
           if (title) {
             title.textContent = nombre
-              ? `${nombre}, tu acceso beta quedo programado`
-              : 'Tu acceso beta quedo programado';
+              ? `${nombre}, tu registro quedó guardado`
+              : 'Tu registro quedó guardado';
           }
           if (message) {
-            message.textContent = 'Te enviaremos el correo de acceso dentro de 1 hora. Si no lo ves, revisa spam o promociones.';
+            message.textContent = 'Ya estás registrado en la beta privada de DataScan AI.';
           }
           successMessage.hidden = false;
         }
