@@ -22,7 +22,7 @@ Reemplaza estas variables antes de enviar con Resend:
 const html = template
   .replaceAll('{{name}}', name)
   .replaceAll('{{logo_url}}', 'https://datascan.tech/assets/logo-horizontal.png')
-  .replaceAll('{{bot_link}}', 'https://t.me/Factura_pe_bot');
+  .replaceAll('{{bot_link}}', 'https://t.me/DatascanAI_bot');
 
 await fetch('https://api.resend.com/emails', {
   method: 'POST',
